@@ -1,0 +1,52 @@
+.App {
+  padding: 2rem 5rem;
+  display: flex;
+
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border: 1px solid gray;
+
+  background-color: white; /* mudei aqui */
+  
+  border-radius: 10px;
+  gap: 1.5rem
+}
+
+.App form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.App .label-img {
+  text-align: center;
+}
+
+.App form input {
+  padding: 0.5rem;
+  outline: none;
+}
+
+.App form button {
+  padding: 0.5rem;
+  border: none;
+  background-color: rgb(49, 195, 244);
+  border-radius: 5px;
+}
+
+.container-eventos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tipos-eventos {
+  display: flex;
+  justify-content: space-between;
+}
